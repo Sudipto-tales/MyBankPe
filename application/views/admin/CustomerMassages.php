@@ -12,24 +12,9 @@ $c_name = "MyBankPe";
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            <?php if ($this->session->flashdata('success')): ?>
-                    < div class="alert alert-success" role = "alert" >
-                        <i class="ri-check-line me-2"></i>Photo Upload < strong > Successfully!!</strong > alert - check it out!
-                        </div >
-                <?php endif; ?>
-            <?php if ($this->session->flashdata('error')): ?>
-                    < div class="alert alert-danger" role = "alert" >
-                        <i class="ri-close-circle-line me-2"></i>Failed to Upload < strong > Photo</strong > alert - check it out!
-                        </div >
-
-                <?php endif; ?>
-        });
-    </script>
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.svg" type="image/x-icon">
 
     <!-- Theme Config Js -->
     <script src="<?php echo base_url() ?>raw/assets/js/hyper-config.js"></script>
@@ -96,17 +81,7 @@ $c_name = "MyBankPe";
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <div class="row mb-2">
-
-                                        <div class="col-sm-7">
-                                            <div class="text-sm-end">
-                                                <button type="button" class="btn btn-success mb-2 me-1"><i
-                                                        class="mdi mdi-cog"></i></button>
-                                                <button type="button" class="btn btn-light mb-2 me-1">Import</button>
-                                                <button type="button" class="btn btn-light mb-2">Export</button>
-                                            </div>
-                                        </div><!-- end col-->
-                                    </div>
+                                   
 
                                     <div class="table-responsive">
                                         <table class="table table-centered table-striped dt-responsive nowrap w-100"

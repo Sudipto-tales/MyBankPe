@@ -44,7 +44,7 @@ class ContactUsController extends CI_Controller
     public function remove($id)
 {
     $this->ContactModel->delete_contact($id);
-    redirect('admin/CustomerMassages');
+    redirect('admin/contact_us');
 }
 
 }

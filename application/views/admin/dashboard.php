@@ -29,7 +29,7 @@ $c_name = "MyBankPe";
     </script>
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.svg" type="image/x-icon">
 
     <!-- Theme Config Js -->
     <script src="<?php echo base_url() ?>raw/assets/js/hyper-config.js"></script>
