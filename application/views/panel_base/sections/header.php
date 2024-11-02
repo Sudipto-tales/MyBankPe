@@ -4,7 +4,7 @@
         <!-- navigation bar -->
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
-                <img src="<?php echo base_url() ?>assets/images/logo.png" alt="image">
+                <img src="<?php echo base_url() ?>assets/images/logo (1).png" alt="image">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                                 <li><a href="<?php echo base_url() ?>services/payout">Payout</a></li>
                                 <li><a href="<?php echo base_url() ?>services/payment_getway">Paymnet Gateway</a></li>
                                 <li><a href="<?php echo base_url() ?>services/current_account">Current Account</a></li>
-                                <li><a href="<?php echo base_url() ?>comming_soon">Verification Stack</a></li>
+                                <li><a href="<?php echo base_url() ?>services/source_to_pay">Source To Pay</a></li>
                             </ul>
                         </div>
                     </li>
@@ -47,7 +47,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url() ?>comming_soon">Blog</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>blog">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url() ?>contact_us">Contact</a>

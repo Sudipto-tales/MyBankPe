@@ -58,10 +58,10 @@
                 <div class="collapse" id="sidebarUpload">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="<?php echo base_url() ?>admin/contact_us/view">Contact Us</a>
+                            <a href="<?php echo base_url() ?>admin/contact_us">Contact Us</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url() ?>admin/mail/view">Mail Box</a>
+                            <a href="<?php echo base_url() ?>admin/mail">Mail Box</a>
                     </ul>
                 </div>
 
@@ -73,7 +73,7 @@
                 <div class="collapse" id="sidebarUpload">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="<?php echo base_url() ?>admin/contact_us/view">Blogs</a>
+                            <a href="<?php echo base_url() ?>admin/blogs">Blogs</a>
                         </li>
                     </ul>
                     </div>

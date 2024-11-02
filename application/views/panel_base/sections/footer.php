@@ -35,7 +35,7 @@
                 <!-- footer link 1 -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="abt_side">
-                        <div class="logo"> <img src="<?php echo base_url() ?>assets/images/footer_logo.png" alt="image">
+                        <div class="logo"> <img src="<?php echo base_url() ?>assets/images/logo (1).png" alt="image">
                         </div>
                         <ul>
                             <li>

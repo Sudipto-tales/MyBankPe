@@ -662,7 +662,7 @@ header.fixed .navbar {
 .banner_section::after {
     content: "";
     display: block;
-    background-image: url("../images/banner-shape.svg");
+    background-image: url(../images/banner-shape.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1026,7 +1026,7 @@ header.fixed .navbar {
     position: absolute;
     left: 0;
     top: 5px;
-    background-image: url("../images/right_icon.png");
+    background-image: url(../images/right_icon.png);
     width: 22px;
     height: 22px;
     background-repeat: no-repeat;
@@ -2422,7 +2422,7 @@ header.fix_style.white_header {
 
 /* Bredcrumb Css Start */
 .bred_crumb {
-    background-image: url(images/bread_crumb_bg.png);
+    background-image: url("../images/bread_crumb_bg.png");
     /*background: var(--purple);*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -2437,7 +2437,7 @@ header.fix_style.white_header {
 
 .bred_crumb::after {
     content: "";
-    background-image: url(images/inner_page_banner_overlay.svg);
+    background-image: url(../images/inner_page_banner_overlay.svg);
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -3352,7 +3352,7 @@ header.fix_style.white_header {
 }
 
 .review_freeapp .free_app_inner {
-    background: url(images/free_review_bg.png);
+    background: url(../images/free_review_bg.png);
     background-size: cover;
     background-position: 90%;
 }
@@ -4620,7 +4620,7 @@ header.fixed .navbar {
     position: absolute;
     left: 0;
     top: 5px;
-    background-image: url(images/right_icon.png);
+    background-image: url(../images/right_icon.png);
     width: 22px;
     height: 22px;
     background-repeat: no-repeat;
@@ -5001,7 +5001,7 @@ iframe#youtubevideo {
 }
 
 .testimonial_section .testimonial_block {
-    background-image: url(images/testimonial_bg.png);
+    background-image: url(../images/testimonial_bg.png);
     background-size: cover;
     background-position: center;
     position: relative;

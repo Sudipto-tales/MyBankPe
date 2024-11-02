@@ -59,11 +59,13 @@ $route['translate_uri_dashes'] = FALSE;
 // $route['auth_refresh'] = 'AuthController/refresh_limit';
 
 $route['features'] = 'PageController/feature';
+$route['comming_soon'] = 'ErrorController/index';
 
 //service pages
 $route['services/payout'] = 'PageController/payout';
 $route['services/payment_getway'] = 'PageController/payment_getway';
 $route['services/current_account'] = 'PageController/current_account';
+$route['services/source_to_pay'] = 'PageController/source_to_pay';
 
 //Blogs
 $route['blogs'] = 'BlogController/blogs';
@@ -80,3 +82,4 @@ $route['admin'] = 'AdminController/index';
 $route['admin/contact_us'] = 'ContactUsController/contact_view';
 $route['admin/mail'] = 'EmailController/index';
 $route['admin/blogs'] = 'BlogController/blog_upload';
+$route['blog'] = 'BlogController/blog';

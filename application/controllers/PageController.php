@@ -29,5 +29,11 @@ class PageController extends CI_Controller
         $this->load->view('pages/current_account');
     }
 
+    public function source_to_pay()
+	{
+        $this->load->view('pages/source_to_pay');
+    }
+    
+
 
 }

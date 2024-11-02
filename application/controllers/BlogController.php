@@ -7,9 +7,12 @@ class BlogController extends CI_Controller
         $this->load->view('blog_single');
     }
 
+    public function blog(){
+        $this->load->view('blog_list');
+    }
     
     public function blog_upload(){
-        $this->load->view('blog_upload');
+        $this->load->view('admin/blog_upload');
     }
 
     

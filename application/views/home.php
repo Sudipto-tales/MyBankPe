@@ -12,7 +12,7 @@
     <meta name="author" content="CoderAryan">
     <?php $this->load->view("panel_base/sections/css.php") ?>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.svg" type="image/x-icon">
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
