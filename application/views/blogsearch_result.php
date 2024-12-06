@@ -76,33 +76,6 @@
     </div>
 
 
-    <!-- Blog-Detail-Section-Start -->
-    <section class="row_am blog_list_main">
-      <!-- container start -->
-      <div class="container">
-        <!-- row start -->
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-in" data-aos-duration="1500">
-            <div class="blog_img">
-              <img src="<?php echo base_url() ?>assets/images/blogs/<?= $l_data->img_file ?>" alt="image">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="blog_text">
-              <span>EDITOR CHOICE</span>
-              <div class="section_title">
-                <h2><?= $l_data->blog_name ?></h2>
-                <p><?= $l_data->blog_dsc ?></p>
-                <a href="blog-single.html">READ MORE....</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- row end -->
-      </div>
-      <!-- container end -->
-    </section>
-    <!-- Blog-Detail-Section-end -->
 
     <!-- Story-Section-Start -->
     <section class="row_am latest_story blog_list_story" id="blog">

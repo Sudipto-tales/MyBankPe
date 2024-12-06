@@ -68,8 +68,9 @@ $route['services/current_account'] = 'PageController/current_account';
 $route['services/source_to_pay'] = 'PageController/source_to_pay';
 
 //Blogs
-$route['blogs'] = 'BlogController/blogs';
-$route['blogs/search_result'] = 'AdminController/search_blogs';
+$route['blog_single'] = 'BlogController/index';
+$route['blog'] = 'BlogController/blog';
+$route['blogs/search_result'] = 'BlogController/blog_search';
 
 
 //contact us page
@@ -82,4 +83,4 @@ $route['admin'] = 'AdminController/index';
 $route['admin/contact_us'] = 'ContactUsController/contact_view';
 $route['admin/mail'] = 'EmailController/index';
 $route['admin/blogs'] = 'BlogController/blog_upload';
-$route['blog'] = 'BlogController/blog';
+

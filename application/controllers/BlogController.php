@@ -3,19 +3,31 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class BlogController extends CI_Controller
 {
+    public function __construct()
+    {
+
+        parent::__construct();
+        $this->load->model('BlogModel');
+    }
     public function index(){
-        $this->load->view('blog_single');
+        $this->load->view('blog');
     }
 
     public function blog(){
-        $this->load->view('blog_list');
+        $data['data'] = $this->BlogModel->blogs_get();
+        $data['l_data'] = $this->BlogModel->get_last_blog();
+        $this->load->view('blog_list',$data);
     }
     
     public function blog_upload(){
         $this->load->view('admin/blog_upload');
     }
 
-    
+    public function blog_search(){
+        $query = $this->input->post('searchbar');
+        $data['data'] = $this->BlogModel->search_blogs($query);
+        $this->load->view('blogsearch_result',$data);
+    }
 
 
     public function save_data()
